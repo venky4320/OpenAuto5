@@ -1,0 +1,101 @@
+*{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 30px;
+}
+.new-heading{
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.heading{
+    font-size: 38px;
+}
+.text-red{
+    color: red;
+}
+.text-green{
+    color:green;
+}
+.button{
+    padding-left: 13px;
+    width: 300px;
+    height: 40px;
+    color:white;
+    border-radius: 30px;
+    border-color: #ffffff;
+}
+.input1{
+    padding-left: 13px;
+    width: 300px;
+}
+button:hover{
+    background-color: blue;
+}
+@media screen and (min-width:767px){
+    .new-heading{
+        display: none;
+    }
+    
+    .image3{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .heading{
+        font-size: 38px;
+        text-align: center;
+    }
+    .new-container{
+        display: none;
+
+    }
+    .image2{
+        display: none;
+    }
+    .container{
+        margin: 30px;
+        display: block;
+    }
+    .image3{
+        height: 250px;
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .paragraph{
+        text-align: center;
+
+    }
+    .icon-image{
+        display: none;
+    }
+    
+}
+
+.image-lp-container{
+    display: flex;
+    flex-direction: row;
+}
+.icon-image{
+    margin-left: 500px;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+.icons1{
+    margin-left: 400px;
+}
